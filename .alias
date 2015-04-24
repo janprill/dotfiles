@@ -1,0 +1,11 @@
+alias csl='less -i +F /data/corpus/work/logs/server-0.0.log'
+alias lcl='less -i +F /data/corpus/work/logs/server-0.0.log'
+alias gcl='less -i +F /data/corpus/work/logs/gc.log'
+alias lcg='less -i +F /data/corpus/work/logs/gc.log'
+alias stl='less -i +F /data/corpus/work/logs/startup.log'
+alias lll='less -i +F /data/corpus/work/logs/startup.log'
+alias stdl='less -i +F /data/corpus/work/logs/stdout.log'
+alias ljl='less -i +F /data/corpus/work/logs/stdout.log'
+
+alias safe-cust='tar -cvzf csc_`hostname`_`date +%Y%m%d_%H%M`.tar.gz  csc/*'
+alias ocl='less -i +F /data/corpus/ocl/logs/satellite-0.log'

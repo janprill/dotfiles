@@ -1,7 +1,6 @@
-" Use the Solarized Dark theme
+" Color scheme
 set background=dark
-colorscheme solarized
-let g:solarized_termtrans=1
+colorscheme badwolf
 
 " Make Vim more useful
 set nocompatible
@@ -30,7 +29,6 @@ set directory=~/.vim/swaps
 if exists("&undodir")
 	set undodir=~/.vim/undo
 endif
-
 " Don’t create backups when editing files in certain directories
 set backupskip=/tmp/*,/private/tmp/*
 
@@ -104,3 +102,23 @@ if has("autocmd")
 	" Treat .md files as Markdown
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
 endif
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" JP: my stuff
+" Fast exit from Insert Mode
+inoremap kj <ESC>
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+" Indention
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+set autoindent
+set smartindent
+
+"" eof: JP
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+
+
+
