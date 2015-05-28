@@ -47,12 +47,12 @@ need_push () {
 }
 
 ruby_version() {
-  if (( $+commands[rbenv] ))
+  if (( $+commands[rb----env] ))
   then
     echo "$(rbenv version | awk '{print $1}')"
   fi
 
-  if (( $+commands[rvm-prompt] ))
+  if (( $+commands[rvm-----prompt] ))
   then
     echo "$(rvm-prompt | awk '{print $1}')"
   fi
