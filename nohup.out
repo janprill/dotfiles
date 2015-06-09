@@ -1,0 +1,11 @@
+2015-06-03 10:23:53.737 idea[30112:209127] Value of IDEA_JDK: (null)
+2015-06-03 10:23:53.769 idea[30112:209193] fullFileName is: /Applications/IntelliJ IDEA 14 CE.app/Contents/bin/idea.vmoptions
+2015-06-03 10:23:53.769 idea[30112:209193] fullFileName exists: /Applications/IntelliJ IDEA 14 CE.app/Contents/bin/idea.vmoptions
+2015-06-03 10:23:53.770 idea[30112:209193] Value of IDEA_VM_OPTIONS is (null)
+2015-06-03 10:23:53.770 idea[30112:209193] Processing VMOptions file at /Applications/IntelliJ IDEA 14 CE.app/Contents/bin/idea.vmoptions
+2015-06-03 10:23:53.770 idea[30112:209193] Done
+2015-06-03 10:23:53.770 idea[30112:209193] Processing VMOptions file at /Users/jan.prill/Library/Preferences/IdeaIC14/idea.vmoptions
+2015-06-03 10:23:53.771 idea[30112:209193] No content found
+2015-06-03 10:23:53.771 idea[30112:209193] Processing VMOptions file at 
+2015-06-03 10:23:53.771 idea[30112:209193] No content found
+/Applications/IntelliJ IDEA 14 CE.app/Contents/bin/idea.properties: 'java.endorsed.dirs' already defined

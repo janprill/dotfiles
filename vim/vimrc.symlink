@@ -58,7 +58,7 @@ set incsearch
 " Always show status line
 set laststatus=2
 " Enable mouse in all modes
-set mouse=a
+" set mouse=a
 " Disable error bells
 set noerrorbells
 " Don’t reset cursor to start of line when moving around.
@@ -149,7 +149,7 @@ Plugin 'file:///home/gmarik/path/to/plugin'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Avoid a name conflict with L9
 Plugin 'user/L9', {'name': 'newL9'}
-
+Plugin 'YankRing.vim'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -168,6 +168,11 @@ filetype plugin indent on    " required
 "" Bundles installed with Vundle
 Bundle 'matze/vim-move'
 Bundle 'tpope/vim-ragtag'
+
+" disable yankring as root, see http://vim.wikia.com/wiki/Script:1234
+if $USER == 'root'
+  let loaded_yankring = 120
+endif
 
 " Configuration for matze/vim-move
 let g:move_key_modifier = 'C'
@@ -189,7 +194,6 @@ set statusline+=%-14.(%l,%c%V%)\ %<%P        " offset
 
 "" eof: JP
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""
-
 
 
 
