@@ -1,6 +1,6 @@
 " Color scheme
-set background=dark
-colorscheme badwolf
+set background=light
+colorscheme flattened_light
 
 " Make Vim more useful
 set nocompatible
