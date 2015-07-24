@@ -1,6 +1,6 @@
 " Color scheme
-set background=light
-colorscheme flattened_light
+set background=dark
+colorscheme apprentice
 
 " Make Vim more useful
 set nocompatible
