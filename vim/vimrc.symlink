@@ -5,7 +5,7 @@ colorscheme apprentice
 " Make Vim more useful
 set nocompatible
 " Use the OS clipboard by default (on versions compiled with `+clipboard`)
-set clipboard=unnamed
+set clipboard+=unnamed
 " Enhance command-line completion
 set wildmenu
 " Allow cursor keys in insert mode
@@ -98,7 +98,7 @@ if has("autocmd")
 	" Enable file type detection
 	filetype on
 	" Treat .json files as .js
-	autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
+	" autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 	" Treat .md files as Markdown
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
 endif
@@ -168,6 +168,8 @@ filetype plugin indent on    " required
 "" Bundles installed with Vundle
 Bundle 'matze/vim-move'
 Bundle 'tpope/vim-ragtag'
+Bundle 'gabrielelana/vim-markdown'
+Bundle 'elzr/vim-json'
 
 " disable yankring as root, see http://vim.wikia.com/wiki/Script:1234
 if $USER == 'root'
@@ -194,6 +196,5 @@ set statusline+=%-14.(%l,%c%V%)\ %<%P        " offset
 
 "" eof: JP
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""
-
 
 

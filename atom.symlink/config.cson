@@ -13,15 +13,15 @@
       "tmp"
       "vendor"
     ]
-    themes: [
-      "unity-ui"
-      "glacier-syntax"
-    ]
     hideGitIgnoredFiles: true
     disabledPackages: [
       "background-tips"
       "exception-reporting"
       "metrics"
+    ]
+    themes: [
+      "atom-dark-ui"
+      "atom-dark-syntax"
     ]
   "spell-check":
     grammars: [
@@ -33,3 +33,4 @@
     showOnStartup: false
   "release-notes":
     viewedVersion: "0.89.0"
+  "vim-mode": {}

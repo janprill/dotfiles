@@ -1,4 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =3
 let g:netrw_dirhist_1='/Users/jan.prill/empty/entrance.io/01-rad-jobs'
 let g:netrw_dirhist_2='/Users/jan.prill/Documents/workspace/jan/Telescope/packages'
+let g:netrw_dirhist_3='/Users/jan.prill/Library/Preferences/censhare/v4/hosts'
